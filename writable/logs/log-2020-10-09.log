@@ -1,0 +1,38 @@
+CRITICAL - 2020-10-09 09:20:59 --> Undefined property: App\Controllers\Home::$load
+#0 /home/abhay/mememekr/app/Controllers/Home.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/abhay/mem...', 12, Array)
+#1 /home/abhay/mememekr/system/CodeIgniter.php(918): App\Controllers\Home->dashboard()
+#2 /home/abhay/mememekr/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/abhay/mememekr/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/abhay/mememekr/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-09 09:24:14 --> Undefined property: App\Controllers\Home::$load
+#0 /home/abhay/mememekr/app/Controllers/Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/abhay/mem...', 8, Array)
+#1 /home/abhay/mememekr/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#2 /home/abhay/mememekr/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 /home/abhay/mememekr/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/abhay/mememekr/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-09 09:24:16 --> Undefined property: App\Controllers\Home::$load
+#0 /home/abhay/mememekr/app/Controllers/Home.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/abhay/mem...', 8, Array)
+#1 /home/abhay/mememekr/system/CodeIgniter.php(890): App\Controllers\Home->__construct()
+#2 /home/abhay/mememekr/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->createController()
+#3 /home/abhay/mememekr/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/abhay/mememekr/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-09 09:24:30 --> Undefined property: App\Controllers\Home::$load
+#0 /home/abhay/mememekr/app/Controllers/Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/abhay/mem...', 13, Array)
+#1 /home/abhay/mememekr/system/CodeIgniter.php(918): App\Controllers\Home->dashboard()
+#2 /home/abhay/mememekr/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/abhay/mememekr/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/abhay/mememekr/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-10-09 10:08:58 --> Undefined index: image_url
+#0 /home/abhay/mememekr/app/Views/sidebar_view.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/abhay/mem...', 13, Array)
+#1 /home/abhay/mememekr/system/View/View.php(246): include('/home/abhay/mem...')
+#2 /home/abhay/mememekr/system/Common.php(1119): CodeIgniter\View\View->render('sidebar_view', Array, true)
+#3 /home/abhay/mememekr/app/Controllers/Home.php(19): view('sidebar_view', Array)
+#4 /home/abhay/mememekr/system/CodeIgniter.php(918): App\Controllers\Home->AdminPanel()
+#5 /home/abhay/mememekr/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/abhay/mememekr/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/abhay/mememekr/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
